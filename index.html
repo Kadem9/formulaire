@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Formulaire</title>
+        <link rel="stylesheet" href="style/style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="boite1">
+                <h1 class="titleleft">Formulaire d'inscription</h1>
+                <form>
+                    <div class="icon">
+                        <input type="text" placeholder="Votre nom" />
+                        <img src="image/id-card.svg" />
+                    </div>
+
+                    <div class="icon">
+                        <input type="email" placeholder="Votre adresse mail" />
+                        <img src="image/email.svg" />
+                    </div>
+                    <div class="icon">
+                        <input type="tel" placeholder="Votre numéro" />
+                        <img src="image/phone.svg" />
+                    </div>
+                    <div class="icon">
+                        <input type="password" placeholder="Votre mot de passe" />
+                        <img src="image/padlock.svg" />
+                    </div>
+                    <div class="checkbox">
+                        <input class="checkboo" id="check" type="checkbox" required />
+                        <label for="check"
+                            >J'accepte les
+                            <span style="color: blueviolet; cursor: pointer">CGU</span>
+                        </label>
+                    </div>
+                    <input
+                        class="sendform"
+                        type="submit"
+                        value="Soumettre le formulaire"
+                    />
+                </form>
+            </div>
+            <div class="boite2">
+                <h1>Pourquoi nous rejoindre?</h1>
+                <p>
+                    Notre équipe vous permettra de développer vos compétences au cours
+                    d’un excellent brief. Apprennez avec nous pour seulement
+                    <span>5$</span> par mois!
+                </p>
+                <div class="image">
+                    <img src="image/Image2.png" style="max-width: 200px" />
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
